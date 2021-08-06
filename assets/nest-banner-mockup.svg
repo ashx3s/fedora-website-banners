@@ -164,16 +164,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.3593633"
-     inkscape:cx="445.23189"
-     inkscape:cy="13.913497"
+     inkscape:zoom="0.50821645"
+     inkscape:cx="381.72712"
+     inkscape:cy="33.450314"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1000"
-     inkscape:window-x="1920"
+     inkscape:window-x="0"
      inkscape:window-y="44"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false"
@@ -250,7 +250,7 @@
        inkscape:export-ydpi="96" />
     <g
        id="g4080"
-       transform="matrix(0.33412346,0,0,0.33412346,555.37212,193.0117)"
+       transform="matrix(0.33412458,0,0,0.33412458,555.3724,193.0118)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png">
@@ -506,17 +506,17 @@
        inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"><tspan
          x="-10.044594"
          y="193.95738"
-         id="tspan140304"><tspan
+         id="tspan141113"><tspan
            style="font-size:14.9576px"
-           id="tspan140300">Nest with Fedora</tspan><tspan
+           id="tspan141109">Nest with Fedora</tspan><tspan
            style="font-weight:bold;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
-           id="tspan140302"> 
+           id="tspan141111"> 
 </tspan></tspan><tspan
          x="-10.044594"
          y="209.89716"
-         id="tspan140308"><tspan
+         id="tspan141117"><tspan
            style="font-family:Montserrat;-inkscape-font-specification:Montserrat"
-           id="tspan140306">Join us for this year's contributor conference</tspan></tspan></text>
+           id="tspan141115">Join us for this year's contributor conference</tspan></tspan></text>
     <g
        id="g3974"
        transform="matrix(0.86861358,0,0,0.86861358,399.07636,-45.070447)"
@@ -587,6 +587,17 @@
        inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.995;fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:0.0559487;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect140591"
+       width="133.9203"
+       height="13.510242"
+       x="552.87933"
+       y="197.36807"
+       ry="6.1903696"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png" />
   </g>
   <g
      inkscape:groupmode="layer"

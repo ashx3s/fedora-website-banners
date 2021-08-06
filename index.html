@@ -30,19 +30,33 @@
           var(--blue-light),
           var(--blue-dark)
         );
-        padding: 2rem;
         max-width: 60vw;
         border-radius: 10px;
-        display: flex;
       }
       #event-link {
         background-color: var(--yellow);
         border-radius: 25px;
-        padding: 12px;
+        max-width: 5rem;
         transition: background-color 0.75s cubic-bezier(0.25, 0.8, 0.25, 1);
       }
       #event-link:hover {
         background-color: var(--grey-dark);
+      }
+      /*
+      .full-width {
+        left: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        max-width: 100vw;
+        position: relative;
+        right: 50%;
+        width: 100vw;
+      }
+      */
+      #logo {
+        width: 315px;
+        height: 221px;
+        background-color: var(--yellow);
       }
       /* Fonts */
       h2 {
@@ -65,7 +79,7 @@
   </head>
   <body>
     <div id="event-banner">
-      <div id="logo"></div>
+      <div id="logo" class="full-width"></div>
       <div id="event-text">
         <h2>Nest with Fedora</h2>
         <p>Join us for this year's contributor conference</p>
