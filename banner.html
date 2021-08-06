@@ -9,23 +9,44 @@
       :root {
         --blue: #4080b4;
         --white: #fcfcfc;
-        --orange: #f7b455;
+        --yellow: #f7b455;
+      }
+      /* Items */
+      #event-banner {
+        margin: 0 auto;
+        background-color: var(--blue);
+        padding: 2rem;
+        max-width: 60vw;
+        display: flex;
+      }
+      #event-link {
+        background-color: var(--yellow);
+        border-radius: 25px;
+        padding: 12px;
+      }
+      /* Fonts */
+      h2,
+      p,
+      a {
+        font-family: "Montserrat", sans-serif;
+        color: var(--white);
+      }
+      a {
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
     <div id="event-banner">
-      <div id="event-logo">
-      </div>
+      <div id="logo"></div>
       <div id="event-text">
         <h2>Nest with Fedora</h2>
         <p>Join us for this year's contributor conference</p>
-        <div id="event-link">
-          <a href="#">August 5th-7th, register now!</a>
+        <div id="logo">
+          <a href="#" id="event-link">August 5th-7th, register now!</a>
         </div>
       </div>
-      <div class="fedora-logo">
-      </div>
+      <div class="fedora-logo"></div>
     </div>
   </body>
 </html>
