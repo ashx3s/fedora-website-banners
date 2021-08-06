@@ -17,6 +17,7 @@
       :root {
         --blue-light: #4080b4;
         --blue-dark: #3c6eb3;
+        --grey-dark: #4c4c4cff;
         --white: #fcfcfc;
         --yellow: #f7b455;
       }
@@ -38,6 +39,10 @@
         background-color: var(--yellow);
         border-radius: 25px;
         padding: 12px;
+        transition: background-color 0.75s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+      #event-link:hover {
+        background-color: var(--grey-dark);
       }
       /* Fonts */
       h2 {
