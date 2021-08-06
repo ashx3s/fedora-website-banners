@@ -23,12 +23,12 @@
         --yellow: #f7b455;
       }
       .main {
-        margin: 4rem;
+        margin: 2rem;
       }
       /* Items */
       #event-banner {
         margin: 0 auto;
-        background: rgb(60, 147, 183);
+        background-color: var(--blue-light);
         background-image: linear-gradient(
           to right,
           var(--blue-light),
@@ -40,14 +40,17 @@
         align-items: center;
         flex-wrap: wrap;
       }
+
       #event-info {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        margin: 1rem;
       }
       #event-link {
+        margin: 20px 0 0 0;
         background-color: var(--yellow);
         border-radius: 25px;
         padding: 12px;
@@ -57,39 +60,45 @@
       #event-link:hover {
         background-color: var(--grey-dark);
       }
-      #logo-container {
+      .fedora-container {
         margin: 1rem;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         width: 100%;
       }
       #fedora-logo {
-        width: 82px;
+        width: 80px;
+      }
+      .nest-container {
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       #nest-logo {
-        width: 100%;
-        max-width: 315px;
+        max-width: 180px;
       }
 
-      @media screen and (min-width: 1440px) {
-        #event-text {
+      @media screen and (min-width: 1400px) {
+        #event-info {
           text-align: left;
+          align-items: flex-start;
         }
-        #logo-container {
-          justify-content: center;
+        .fedora-container {
           width: auto;
         }
-        #fedora-logo {
-          width: 330px;
+        #fedora-logo,
+        #nest-logo {
+          width: 320px;
         }
       }
       /* Fonts */
       h2 {
-        font-size: clamp(2rem, 10vw, 3rem);
+        font-size: clamp(2rem, 2.5vw, 3rem);
       }
       p,
       a {
-        font-size: clamp(1.2rem, 5vw, 1.8rem);
+        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
       }
       h2,
       p,
@@ -102,7 +111,7 @@
   <body>
     <main class="main">
       <article id="event-banner">
-        <div>
+        <div class="nest-container">
           <img
             src="assets/nest-logo-trans-back.png"
             alt="Nest logo"
@@ -118,7 +127,7 @@
             </div>
           </div>
         </div>
-        <div id="logo-container">
+        <div class="fedora-container">
           <img
             src="assets/fedora-logo.png"
             alt="Fedora Logo"
