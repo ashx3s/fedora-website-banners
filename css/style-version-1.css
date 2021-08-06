@@ -1,0 +1,82 @@
+/* Flexbox with media query set to desktop size */
+.main {
+  margin: 2rem;
+}
+/* Items */
+#event-banner {
+  background-color: var(--blue-light);
+  background-image: linear-gradient(
+    to right,
+    var(--blue-light),
+    var(--blue-dark)
+  );
+
+  margin: 0 auto;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#event-info {
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#event-link {
+  background-color: var(--yellow);
+
+  margin: 20px 0 0 0;
+  padding: 12px;
+  border-radius: 25px;
+  text-align: center;
+
+  transition: background-color 0.75s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+#event-link:hover {
+  background-color: var(--grey-dark);
+}
+
+#fedora-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#fedora-logo {
+  width: 80px;
+}
+
+#nest-container {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nest-logo {
+  width: 180px;
+}
+/* Adjustments for Desktop */
+@media screen and (min-width: 1440px) {
+  #event-info {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .fedora-container {
+    width: auto;
+  }
+
+  #fedora-logo,
+  #nest-logo {
+    width: 320px;
+  }
+}

@@ -22,83 +22,13 @@
         --white: #fcfcfc;
         --yellow: #f7b455;
       }
-      .main {
-        margin: 2rem;
-      }
-      /* Items */
-      #event-banner {
-        margin: 0 auto;
-        background-color: var(--blue-light);
-        background-image: linear-gradient(
-          to right,
-          var(--blue-light),
-          var(--blue-dark)
-        );
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-      }
-
-      #event-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        margin: 1rem;
-      }
-      #event-link {
-        margin: 20px 0 0 0;
-        background-color: var(--yellow);
-        border-radius: 25px;
-        padding: 12px;
-        transition: background-color 0.75s cubic-bezier(0.25, 0.8, 0.25, 1);
-        text-align: center;
-      }
-      #event-link:hover {
-        background-color: var(--grey-dark);
-      }
-      .fedora-container {
-        margin: 1rem;
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-      }
-      #fedora-logo {
-        width: 80px;
-      }
-      .nest-container {
-        margin: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      #nest-logo {
-        width: 180px;
-      }
-
-      @media screen and (min-width: 1400px) {
-        #event-info {
-          text-align: left;
-          align-items: flex-start;
-        }
-        .fedora-container {
-          width: auto;
-        }
-        #fedora-logo,
-        #nest-logo {
-          width: 320px;
-        }
-      }
       /* Fonts */
       h2 {
-        font-size: clamp(2rem, 2.5vw, 3rem);
+        font-size: clamp(1.8rem, 2.5vw, 2.5rem);
       }
       p,
       a {
-        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+        font-size: clamp(1.1rem, 2.5vw, 1.5rem);
       }
       h2,
       p,
@@ -106,12 +36,47 @@
         font-family: "Montserrat", sans-serif;
         color: var(--white);
       }
+      /* Main Layout */
+      #event-banner {
+        background-color: var(--blue-light);
+        background-image: linear-gradient(
+          to right,
+          var(--blue-light),
+          var(--blue-dark)
+        );
+        border-radius: 10px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+      /* Elements */
+      #event-info {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+
+        text-align: left;
+      }
+      #event-link {
+        background-color: var(--yellow);
+        border-radius: 25px;
+        text-align: center;
+
+        margin: 20px 0;
+        padding: 12px 14px;
+      }
+      #event-link:hover {
+        background-color: var(--grey-dark);
+      }
     </style>
   </head>
   <body>
     <main class="main">
       <article id="event-banner">
-        <div class="nest-container">
+        <div id="nest-container">
           <img
             src="assets/nest-logo-trans-back.png"
             alt="Nest logo"
@@ -121,13 +86,14 @@
         <div id="event-info">
           <h2>Nest with Fedora</h2>
           <p>Join us for this year's contributor conference</p>
+          <p>August 5th to 7th</p>
           <div>
             <div id="event-link">
-              <a href="#">August 5th-7th register now!</a>
+              <a href="#">Register now!</a>
             </div>
           </div>
         </div>
-        <div class="fedora-container">
+        <div id="fedora-container">
           <img
             src="assets/fedora-logo.png"
             alt="Fedora Logo"
