@@ -219,7 +219,8 @@
        y="154.57463"
        transform="scale(-1,1)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png" />
     <text
        xml:space="preserve"
        id="text3944"
@@ -237,17 +238,22 @@
        y="154.28519"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       ry="2.5594611" />
+       ry="2.5594611"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:#3c6eb4;stroke-width:1.30546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 487.20205,151.34479 c 12.65419,0 17.84893,7.79496 17.84893,7.79496 0,0 6.26306,-7.10885 14.95847,-7.10885 3.74138,0 10.88831,1.25966 10.88831,6.97835 0,4.64728 -2.44117,6.95043 -2.44117,6.95043 0,0 12.9911,1.4599 12.9911,11.69907 0,7.05977 -7.33672,10.70646 -7.33672,10.70646 0,0 4.50167,3.8418 4.50167,8.77018 0,9.79097 -10.32459,11.52396 -17.73467,11.52396 -18.46677,0 -26.09936,-5.19141 -26.09936,-5.19141 0,0 -4.73689,4.92895 -16.12903,4.92895 -8.8556,0 -19.29693,-7.1194 -19.29693,-17.98583 0,-5.09632 5.94476,-8.83773 5.94476,-8.83773 0,0 -5.78377,-2.53848 -5.78377,-8.678 0,-11.38504 9.8892,-9.72489 9.8892,-9.72489 0,0 4.74517,-11.82565 17.79921,-11.82565 z"
        id="path1183"
-       sodipodi:nodetypes="scsscscsscsscscs" />
+       sodipodi:nodetypes="scsscscsscsscscs"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
        id="g4080"
        transform="matrix(0.33412346,0,0,0.33412346,555.37212,193.0117)"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png">
       <path
          sodipodi:nodetypes="cscscsscscsscsc"
          inkscape:connector-curvature="0"
@@ -472,7 +478,8 @@
        y="187.76703"
        ry="6.1903696"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.78948px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.295152"
@@ -480,7 +487,8 @@
        y="196.80058"
        id="text4141"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"><tspan
          sodipodi:role="line"
          x="558.9635"
          y="196.80058"
@@ -494,24 +502,28 @@
        id="text4704"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="matrix(0.69821902,0,0,0.69821902,560.28537,35.513313)"><tspan
+       transform="matrix(0.69821902,0,0,0.69821902,560.28537,35.513313)"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"><tspan
          x="-10.044594"
          y="193.95738"
-         id="tspan140100"><tspan
+         id="tspan140304"><tspan
            style="font-size:14.9576px"
-           id="tspan140096">Nest with Fedora</tspan><tspan
+           id="tspan140300">Nest with Fedora</tspan><tspan
            style="font-weight:bold;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
-           id="tspan140098"> 
+           id="tspan140302"> 
 </tspan></tspan><tspan
          x="-10.044594"
          y="209.89716"
-         id="tspan140104"><tspan
+         id="tspan140308"><tspan
            style="font-family:Montserrat;-inkscape-font-specification:Montserrat"
-           id="tspan140102">Join us for this year's contributor conference</tspan></tspan></text>
+           id="tspan140306">Join us for this year's contributor conference</tspan></tspan></text>
     <g
        id="g3974"
        transform="matrix(0.86861358,0,0,0.86861358,399.07636,-45.070447)"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          id="path1648"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.323096"
@@ -571,7 +583,10 @@
        width="1.9488293"
        height="0.97441208"
        x="457.35123"
-       y="189.97577" />
+       y="189.97577"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-desktop.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -587,17 +602,24 @@
        y="91.867195"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       ry="2.8861783" />
+       ry="2.8861783"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-mobile.png" />
     <rect
        style="opacity:0.690098;fill:#f7b455;fill-opacity:1;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:14.9379"
        id="rect48734"
        width="1.6458405"
        height="0.82291812"
        x="785.21985"
-       y="121.43955" />
+       y="121.43955"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-mobile.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
        id="g99774"
-       transform="translate(24.981486,10.799579)">
+       transform="translate(24.981486,10.799579)"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-mobile.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.92039;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 811.60231,94.271623 c 8.92159,0 12.58404,5.495687 12.58404,5.495687 0,0 4.41566,-5.011959 10.54619,-5.011959 2.63779,0 7.6766,0.888097 7.6766,4.919946 0,3.276483 -1.72111,4.900283 -1.72111,4.900283 0,0 9.15912,1.02926 9.15912,8.24819 0,4.97737 -5.17261,7.54839 -5.17261,7.54839 0,0 3.17382,2.70859 3.17382,6.18326 0,6.90292 -7.27916,8.12473 -12.50349,8.12473 -13.01964,0 -18.40085,-3.6601 -18.40085,-3.6601 0,0 -3.33966,3.47506 -11.37147,3.47506 -6.24346,0 -13.60492,-5.01939 -13.60492,-12.68056 0,-3.59306 4.19123,-6.23088 4.19123,-6.23088 0,0 -4.07773,-1.7897 -4.07773,-6.11825 0,-8.02681 6.97219,-6.85634 6.97219,-6.85634 0,0 3.34549,-8.337457 12.54899,-8.337457 z"
@@ -826,7 +848,10 @@
     </g>
     <g
        id="g110105"
-       transform="matrix(0.4904957,0,0,0.4904957,513.83911,110.11986)">
+       transform="matrix(0.4904957,0,0,0.4904957,513.83911,110.11986)"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-mobile.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
          style="opacity:0.995;fill:#f7b455;fill-opacity:1;stroke:none;stroke-width:0.0640847;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect48694"
@@ -861,7 +886,10 @@
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="798.47052"
        y="161.37427"
-       id="text69180"><tspan
+       id="text69180"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-mobile.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan69178"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
@@ -872,7 +900,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.95735px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.173934"
        x="845.88214"
        y="173.00761"
-       id="text74002"><tspan
+       id="text74002"
+       inkscape:export-filename="/home/ashlyn/Code/fedora/fedora-event-banners/assets/banner-mobile.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan110647"
          x="845.88214"

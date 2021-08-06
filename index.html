@@ -5,18 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fedora Banner</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Banner Style-->
     <style>
       :root {
-        --blue: #4080b4;
+        --blue-light: #4080b4;
+        --blue-dark: #3c6eb3;
         --white: #fcfcfc;
         --yellow: #f7b455;
       }
       /* Items */
       #event-banner {
         margin: 0 auto;
-        background-color: var(--blue);
+        background: rgb(60, 147, 183);
+        background-image: linear-gradient(
+          to right,
+          var(--blue-light),
+          var(--blue-dark)
+        );
         padding: 2rem;
         max-width: 60vw;
+        border-radius: 10px;
         display: flex;
       }
       #event-link {
@@ -25,6 +40,13 @@
         padding: 12px;
       }
       /* Fonts */
+      h2 {
+        font-size: clamp(2rem, 2.5vw, 3rem);
+      }
+      p,
+      a {
+        font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      }
       h2,
       p,
       a {
