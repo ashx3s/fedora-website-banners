@@ -1,0 +1,21 @@
+:root {
+  --blue-light: #4079b4;
+  --blue-dark: #2c6eb3;
+  --grey-dark: #3c4c4cff;
+  --white: #fcfcfc;
+  --yellow: #f6b455;
+}
+/* Fonts */
+h1 {
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+}
+p,
+a {
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+}
+h2,
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+  color: var(--white);
+}
