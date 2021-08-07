@@ -9,17 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet"
+        />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/defaults.css" />
     <!--Banner Style-->
     <style>
-      /* for testing */
-      .main {
-        margin: 4rem;
-      }
+/* for testing */
+.main {
+  margin: 4rem;
+}
 
       /* Main Layout */
       #event-banner {
@@ -28,9 +28,28 @@
           to right,
           var(--blue-light),
           var(--blue-dark)
+        max-width: 80vw;
         );
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: center;
+
+      border-radius: 10px;
+      }
+
+      #event-banner > * {
+        margin: 1rem;
       }
       /* Elements */
+      #event-info {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+      }
+
       #event-link {
         background-color: var(--yellow);
         border-radius: 25px;
@@ -38,18 +57,61 @@
 
         margin: 20px 0 10px;
         padding: 12px 14px;
+        transition: background-color 0.75s cubic-bezier(0.25, 0.8, 0.25, 1);
       }
 
       #event-link:hover {
         background-color: var(--grey-dark);
       }
-
-      /* Logo */
-      #fedora-logo,
-      #event-logo {
-        width: 320px;
+      .event-logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
       }
+
+      #event-logo {
+        width: 200px;
+      }
+
+      .fedora-container {
+        /* If you want to have the logo visible at a mobile size, put your flexbox code here instead of in the media query */
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        /*
+display: none;
+         */
+        width: 100%;
+      }
+
+      #fedora-logo {
+        width: 80px;
+        /* putting align-self: flex-end; here will force the logo to the bottom because an id is more specific than a class. To get around this, you can make the container an id or set this specifically in the media query (probably more elegant)  */
+      }
+
       /* Media query to handle mobile layout */
+      @media screen and (min-width: 1400px) {
+        #event-info {
+          align-items: flex-start;
+          text-align: left;
+        }
+
+        .fedora-container {
+          width: auto;
+        }
+
+        /* Logo */
+        #fedora-logo,
+        #event-logo {
+          width: 320px;
+        }
+
+        #fedora-logo {
+          align-self: center;
+        }
+      }
     </style>
   </head>
   <body>
@@ -57,10 +119,10 @@
       <article id="event-banner">
         <div class="event-logo-container">
           <img
-            src="assets/nest-logo.png"
-            alt="Fedora Nest logo"
-            id="event-logo"
-          />
+              src="assets/nest-logo.png"
+              alt="Fedora Nest logo"
+              id="event-logo"
+              />
         </div>
         <div id="event-info">
           <h2>Nest with Fedora</h2>
@@ -74,10 +136,10 @@
         </div>
         <div class="fedora-container">
           <img
-            src="assets/fedora-logo.png"
-            alt="Fedora Logo"
-            id="fedora-logo"
-          />
+              src="assets/fedora-logo.png"
+              alt="Fedora Logo"
+              id="fedora-logo"
+              />
         </div>
       </article>
     </main>
